@@ -16,7 +16,7 @@
 
 ## Descripción del Proyecto
 
-MINIQUEST 4: Proyecto del Bootcamp Data Analytics de Ironhack  
+### MINIQUEST 4: Proyecto del Bootcamp Data Analytics de Ironhack  
  Somos el equipo de IT, ciencia de datos y análisis de Civitatis.
 
 Necesitamos crear una nueva estrategia para proyectar una nueva oferta comercial en la ciudad de Málaga. Crearemos ésta basándonos en datos turísticos de Airbnb, mayor exponente turístico de la ciudad malagueña.
