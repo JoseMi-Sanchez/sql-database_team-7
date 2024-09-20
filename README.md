@@ -1,4 +1,4 @@
-# Civitatis & Airbnb - Estrategia comercial enfocada en datos turísticos de ocupación
+# Civitatis & Airbnb - Estrategia comercial enfocada en datos turísticos de ocupación (Málaga)
 
 ![Imagen](https://github.com/JoseMi-Sanchez/sql-database_team-7/blob/main/readme-image.png)
 
