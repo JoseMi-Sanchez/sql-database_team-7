@@ -73,33 +73,43 @@ Aquí puedes ver los gráficos generados durante el proyecto:
 ## Instrucciones para ejecutar el proyecto
 
 ### Requisitos previos:
-1. **Instalar Python**: Descarga e instala [Python](https://www.python.org/) en tu sistema.
-2. **Instalar dependencias**: Ejecuta el siguiente comando para instalar los paquetes requeridos desde el archivo `requirements.txt`:
+1. **Instalar Python**: Descarga e instala [Python](https://www.python.org/).
+2. **Crear y activar un entorno virtual**:
+   ```bash
+   python -m venv env
+   source env/bin/activate   # Para Linux/Mac
+   env\Scripts\activate      # Para Windows
+   ```
+3. **Instalar dependencias**: Ejecuta este comando para instalar los paquetes desde `requirements.txt`:
    ```bash
    pip install -r requirements.txt
    ```
-3. **Descargar e instalar MySQL Workbench 8**: Puedes hacerlo desde [aquí](https://dev.mysql.com/downloads/workbench/).
+4. **Descargar e instalar MySQL Workbench 8**: Puedes hacerlo [aquí](https://dev.mysql.com/downloads/workbench/). Durante la instalación, configura una contraseña para el usuario `root` y recuérdala para el paso final.
 
 ### Preparación de archivos:
-Asegúrate de tener los siguientes archivos descargados y ubicados en la misma carpeta del proyecto:
-- `main_cleanup.ipynb`
-- `main_report.ipynb`
-- `cleaning_functions.py`
-- `report_functions.py`
-- `civitatis_airbnb_database.sql`
-- `civitatis_airbnb_schema.sql`
-- Archivos extraídos de `calendar_and_listings_csv.rar` (calendar.csv y listings.csv)
+1. Coloca los siguientes archivos en la **misma carpeta** del proyecto:
+   - `main_cleanup.ipynb`
+   - `main_report.ipynb`
+   - `cleaning_functions.py`
+   - `report_functions.py`
+   - `civitatis_airbnb_database.sql`
+   - `civitatis_airbnb_schema.sql`
+   
+2. Descomprime `calendar_and_listings_csv.rar` y asegúrate de que los archivos `calendar.csv` y `listings.csv` estén en la carpeta del proyecto. Estos archivos son esenciales para la limpieza de datos.
 
 ### Pasos para ejecutar:
-1. **Limpiar los datos**: Abre y ejecuta el archivo `main_cleanup.ipynb`. Este script procesará los CSV y generará versiones limpias de los archivos.
-   
-2. **Configurar la base de datos en MySQL**:
-   - Carga los archivos SQL en **MySQL Workbench** en este orden:
-     1. `civitatis_airbnb_schema.sql`
-     2. `civitatis_airbnb_database.sql`
-   - Crea el esquema ejecutando las instrucciones en **MySQL Workbench**. Ponle el nombre de **civitatis_airbnb**, luego copia el código generado y pégalo en la pestaña de consultas (queries). Usa este esquema para realizar las consultas SQL que desees.
 
-3. **Generar gráficos y mapas**: Ejecuta los scripts `cleaning_functions.py` y `report_functions.py`. Estos scripts crearán las visualizaciones gráficas y los mapas basados en los datos procesados.
+1. **Primero, usar el primer programa: Limpieza de datos** (`main_cleanup.ipynb`):
+   - Abre y ejecuta el archivo `main_cleanup.ipynb`. Este script procesará y limpiará los archivos `calendar.csv` y `listings.csv`, generando versiones limpias que se guardarán en la misma carpeta.
+
+2. **Después de la limpieza: Configurar la base de datos en MySQL**:
+   - Abre MySQL Workbench y carga los archivos:
+     1. `civitatis_airbnb_schema.sql` (crea el esquema de la base de datos).
+     2. `civitatis_airbnb_database.sql` (puebla la base de datos).
+   - Utiliza la contraseña de `root` que configuraste durante la instalación.
+
+3. **Por último, uso del segundo programa: Generar gráficos y mapas** (`main_report.ipynb`):
+   - Ejecuta el archivo `main_report.ipynb`, donde se te pedirá la contraseña de `root`. Este script generará gráficos y mapas, que se guardarán automáticamente en la misma carpeta del proyecto.
 
 
 ---
