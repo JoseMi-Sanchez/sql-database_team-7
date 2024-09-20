@@ -107,6 +107,7 @@ Aquí puedes ver los gráficos generados durante el proyecto:
      1. `civitatis_airbnb_schema.sql` (crea el esquema de la base de datos).
      2. `civitatis_airbnb_database.sql` (puebla la base de datos).
    - Utiliza la contraseña de `root` que configuraste durante la instalación.
+   - Asegúrate que la base de datos creada se llame exactamente **'civitatis_airbnb'**.
 
 3. **Por último, uso del segundo programa: Generar gráficos y mapas** (`main_report.ipynb`):
    - Ejecuta el archivo `main_report.ipynb`, donde se te pedirá la contraseña de `root`. Este script generará gráficos y mapas, que se guardarán automáticamente en la misma carpeta del proyecto.
