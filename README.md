@@ -4,6 +4,13 @@
 
 ---
 
+## Enlaces
+
+- [Presentación](https://docs.google.com/presentation/d/1Rmw7gFGfm0NeJP-J4J3syfQo1bDtD7sYEFq99djtgCA/edit?usp=sharing)
+- [Organización en Trello](https://trello.com/invite/b/66e836a767d07db8679faac1/ATTIb21b1d765a6897ad691c6700ef09d40b18F4ABE4/miniquest-3-civitatis-airbnb)
+
+---
+
 ## Miembros del Proyecto
 
 | Nombre             | Background                                  | Contacto                                           |
@@ -115,13 +122,5 @@ Aquí puedes ver los gráficos generados durante el proyecto:
 
 ---
 
-## Enlaces
-
-- [Presentación](https://docs.google.com/presentation/d/1Rmw7gFGfm0NeJP-J4J3syfQo1bDtD7sYEFq99djtgCA/edit?usp=sharing)
-- [Main Notebook](https://github.com/JoseMi-Sanchez/sql-database_team-7/blob/main/main_report.ipynb)
-- [Functions.py](https://github.com/JoseMi-Sanchez/sql-database_team-7/blob/main/report_functions.py)
-- [Organización en Trello](https://trello.com/invite/b/66e836a767d07db8679faac1/ATTIb21b1d765a6897ad691c6700ef09d40b18F4ABE4/miniquest-3-civitatis-airbnb)
-
----
 
 ¡Ayúdanos a impulsar el turismo en Málaga y a desarrollar estrategias comerciales basadas en datos reales!
